@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>CD2B355A-B5A6-4FB6-88F3-EFAC9F2FF444</string>
+	<string>7AAD6D94-199F-4512-B71F-3A8225AC576C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>MapViewExample</string>
+	<string>ActionSheet</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>DA187B06-F6E6-4941-897C-344578AB4698</key>
 		<string>https://github.com/MalineniAnusha/IOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MapViewExample/MapViewExample.xcodeproj/project.xcworkspace</string>
+	<string>ActionSheet/ActionSheet.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DA187B06-F6E6-4941-897C-344578AB4698</key>

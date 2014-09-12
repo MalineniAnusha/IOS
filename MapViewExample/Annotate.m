@@ -16,6 +16,6 @@
     self = [super init];
     _title = title;
     _coordinate = coordinate;
-    return self;
+      return self;
 }
 @end

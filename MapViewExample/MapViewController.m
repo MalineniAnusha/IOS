@@ -95,7 +95,7 @@
         CLPlacemark *placemark=[placemarks objectAtIndex:0];
         NSLog(@"Place %@",[placemarks objectAtIndex:0]);
         NSLog(@"Place Name %@",placemark.country);
-        NSLog(@"Place Name %@",placemark.region);
+        NSLog(@"Region Name %@",placemark.region);
         
 
     
