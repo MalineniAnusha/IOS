@@ -83,8 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				8A93D7C119C2D59F00F7B8FA /* ScrollViewController.h */,
-				8A93D7C219C2D59F00F7B8FA /* ScrollViewController.m */,
 				8A93D7C319C2D59F00F7B8FA /* ScrollViewController.xib */,
+				8A93D7C219C2D59F00F7B8FA /* ScrollViewController.m */,
 				8A93D79819C2D4B000F7B8FA /* ScrollViewExample */,
 				8A93D7B119C2D4B000F7B8FA /* ScrollViewExampleTests */,
 				8A93D79119C2D4B000F7B8FA /* Frameworks */,
@@ -450,6 +450,7 @@
 				8A93D7BD19C2D4B000F7B8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A93D7BE19C2D4B000F7B8FA /* Build configuration list for PBXNativeTarget "ScrollViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +459,7 @@
 				8A93D7C019C2D4B000F7B8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

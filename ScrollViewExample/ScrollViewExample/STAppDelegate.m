@@ -7,6 +7,7 @@
 //
 
 #import "STAppDelegate.h"
+#import "ScrollViewController.h"
 
 @implementation STAppDelegate
 
@@ -15,6 +16,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    ScrollViewController *scroll = [[ScrollViewController alloc]initWithNibName:@"ScrollViewController" bundle:nil];
+   
+    [self.window setRootViewController:scroll];
+
     [self.window makeKeyAndVisible];
     return YES;
 }
