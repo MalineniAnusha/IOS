@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>98F07F9D-7D54-43F7-91B4-D05CE22731AE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MusicSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3FD76343-6FDA-4D46-AF29-F99ED14AF94E</key>
+		<string>https://github.com/MalineniAnusha/IOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MusicSample/MusicSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3FD76343-6FDA-4D46-AF29-F99ED14AF94E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MalineniAnusha/IOS</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3FD76343-6FDA-4D46-AF29-F99ED14AF94E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3FD76343-6FDA-4D46-AF29-F99ED14AF94E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Anusha</string>
+		</dict>
+	</array>
+</dict>
+</plist>
