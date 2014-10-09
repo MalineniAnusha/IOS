@@ -61,7 +61,7 @@
     imagesData = [[NSMutableData alloc] init];
     imagesArray = [[NSMutableArray alloc]init];
     
-    NSURL *imagesUrl = [NSURL URLWithString:@""];
+    NSURL *imagesUrl = [NSURL URLWithString:@"https://dz1uozffojv6d.cloudfront.net/2014-7-17/server/afec8f10-561a-43f3-b57a-2faeaf461ed8_image01_sky_00001.png"];
     NSURLRequest *urlReq = [NSURLRequest requestWithURL:imagesUrl];
     NSURLConnection *urlConnection = [[NSURLConnection alloc] initWithRequest:urlReq delegate:self];
     [urlConnection start];
