@@ -19,5 +19,6 @@
 }
 @property(nonatomic,strong)UIButton *song1Button;
 @property(nonatomic,strong)UIButton *song2Button;
+- (IBAction)pauseAction:(id)sender;
 
 @end

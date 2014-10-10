@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
@@ -49,7 +50,7 @@
     player = [[AVAudioPlayer alloc]initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Song1" ofType:@"mp3"]] error:nil];
     [player prepareToPlay];
     [player play];
-    [_song1Button setTitle:@"Pause" forState:UIControlStateNormal];
+    //[_song1Button setTitle:@"Pause" forState:UIControlStateNormal];
     
 }
 
@@ -92,4 +93,7 @@
 
 
 
+- (IBAction)pauseAction:(id)sender {
+    [player pause];
+    }
 @end
