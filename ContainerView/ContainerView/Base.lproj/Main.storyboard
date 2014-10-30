@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A238x" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="D23-dl-P9d">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Container View-->
+        <scene sceneID="ZmV-wB-kio">
+            <objects>
+                <viewController id="D23-dl-P9d" customClass="ContainerView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8h3-LF-MLW"/>
+                        <viewControllerLayoutGuide type="bottom" id="zCa-0g-KuK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MCq-1Z-yhp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ERg-Oa-cca" userLabel="MenuView">
+                                <rect key="frame" x="260" y="20" width="320" height="548"/>
+                                <connections>
+                                    <segue destination="WTJ-1M-MZh" kind="embed" id="F7P-WG-3ot"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lcd-Mt-PyI" userLabel="MainView">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <connections>
+                                    <segue destination="3Ua-Dd-V3r" kind="embed" id="qdw-MW-cSO"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ce9-dX-3Hk">
+                                <rect key="frame" x="-260" y="20" width="260" height="548"/>
+                                <connections>
+                                    <segue destination="wda-Dy-igd" kind="embed" id="TYd-XS-Doi"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="mainView" destination="MCq-1Z-yhp" id="PYY-mq-ziS"/>
+                        <outlet property="manuView" destination="MCq-1Z-yhp" id="lrh-E6-CXe"/>
+                        <outlet property="profileView" destination="MCq-1Z-yhp" id="TIL-Oh-cyc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yaW-oZ-JOG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="356"/>
+        </scene>
+        <!--Profile View-->
+        <scene sceneID="4FA-Gy-goI">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="WTJ-1M-MZh" customClass="ProfileView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kIM-PI-kPK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Osh-Wm-1pe"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="J3j-hg-Mkm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is Profile View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqF-Vj-mTs">
+                                <rect key="frame" x="79" y="20" width="143" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59368659187341577" blue="0.63525873876884198" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N23-Di-jh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="-305"/>
+        </scene>
+        <!--Main View-->
+        <scene sceneID="RDh-5a-N3O">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bKX-68-3BP" customClass="MainView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6SM-CO-1zN"/>
+                        <viewControllerLayoutGuide type="bottom" id="GbF-Pi-URX"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="qvL-DM-3tL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.64114767091956426" green="0.60001541188317209" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="D9F-CH-QJY">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="PoB-If-hbu">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jPc-mP-7zJ">
+                                <rect key="frame" x="16" y="52" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98512857432121348" green="0.89041498139151076" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="profileButtonClicked:" destination="bKX-68-3BP" eventType="touchUpInside" id="Wgg-cD-KTA"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="hHg-ZW-7gT">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qDe-eI-jQO">
+                                <rect key="frame" x="260" y="70" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98512857432121348" green="0.89041498139151076" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Profile">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="menuButtonClicked:" destination="bKX-68-3BP" eventType="touchUpInside" id="pQa-DI-dIa"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PEX-LR-POW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1472" y="930"/>
+        </scene>
+        <!--Menu View-->
+        <scene sceneID="VsZ-1g-Tcx">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="wda-Dy-igd" customClass="MenuView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G4R-Or-vGw"/>
+                        <viewControllerLayoutGuide type="bottom" id="a9w-yj-KgR"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ePF-gA-wgu">
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is Menu View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edw-lR-T1Q">
+                                <rect key="frame" x="70" y="20" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29854804370482801" green="0.73562149779524799" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XdU-qK-azh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="338"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="96L-tt-olZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3Ua-Dd-V3r" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IIo-Ih-Y2I">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bKX-68-3BP" kind="relationship" relationship="rootViewController" id="C4k-bH-87Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMj-X1-En3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="930"/>
+        </scene>
+    </scenes>
+</document>
