@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87E356C1A0217CE0074C874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E356B1A0217CE0074C874 /* AppDelegate.swift */; };
+		C87E356E1A0217CE0074C874 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E356D1A0217CE0074C874 /* MasterViewController.swift */; };
+		C87E35701A0217CE0074C874 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E356F1A0217CE0074C874 /* DetailViewController.swift */; };
+		C87E35731A0217CE0074C874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87E35711A0217CE0074C874 /* Main.storyboard */; };
+		C87E35751A0217CE0074C874 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87E35741A0217CE0074C874 /* Images.xcassets */; };
+		C87E35781A0217CE0074C874 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87E35761A0217CE0074C874 /* LaunchScreen.xib */; };
+		C87E35841A0217CE0074C874 /* SplitView_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E35831A0217CE0074C874 /* SplitView_SwiftTests.swift */; };
+		C87E35901A0220740074C874 /* 1 in Resources */ = {isa = PBXBuildFile; fileRef = C87E358D1A0220740074C874 /* 1 */; };
+		C87E35911A0220740074C874 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C87E358E1A0220740074C874 /* 2.jpeg */; };
+		C87E35921A0220740074C874 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C87E358F1A0220740074C874 /* 3.jpeg */; };
+		C87E35961A02238B0074C874 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C87E35931A02238B0074C874 /* 4.jpeg */; };
+		C87E35971A02238B0074C874 /* 5 in Resources */ = {isa = PBXBuildFile; fileRef = C87E35941A02238B0074C874 /* 5 */; };
+		C87E35981A02238B0074C874 /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C87E35951A02238B0074C874 /* 6.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87E357E1A0217CE0074C874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87E355E1A0217CE0074C874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87E35651A0217CE0074C874;
+			remoteInfo = "SplitView-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87E35661A0217CE0074C874 /* SplitView-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplitView-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E356A1A0217CE0074C874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87E356B1A0217CE0074C874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C87E356D1A0217CE0074C874 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C87E356F1A0217CE0074C874 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C87E35721A0217CE0074C874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C87E35741A0217CE0074C874 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C87E35771A0217CE0074C874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C87E357D1A0217CE0074C874 /* SplitView-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SplitView-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E35821A0217CE0074C874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87E35831A0217CE0074C874 /* SplitView_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView_SwiftTests.swift; sourceTree = "<group>"; };
+		C87E358D1A0220740074C874 /* 1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1; sourceTree = "<group>"; };
+		C87E358E1A0220740074C874 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		C87E358F1A0220740074C874 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		C87E35931A02238B0074C874 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		C87E35941A02238B0074C874 /* 5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5; sourceTree = "<group>"; };
+		C87E35951A02238B0074C874 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87E35631A0217CE0074C874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E357A1A0217CE0074C874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87E355D1A0217CE0074C874 = {
+			isa = PBXGroup;
+			children = (
+				C87E35681A0217CE0074C874 /* SplitView-Swift */,
+				C87E35801A0217CE0074C874 /* SplitView-SwiftTests */,
+				C87E35671A0217CE0074C874 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87E35671A0217CE0074C874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87E35661A0217CE0074C874 /* SplitView-Swift.app */,
+				C87E357D1A0217CE0074C874 /* SplitView-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87E35681A0217CE0074C874 /* SplitView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C87E356B1A0217CE0074C874 /* AppDelegate.swift */,
+				C87E356D1A0217CE0074C874 /* MasterViewController.swift */,
+				C87E356F1A0217CE0074C874 /* DetailViewController.swift */,
+				C87E35711A0217CE0074C874 /* Main.storyboard */,
+				C87E358D1A0220740074C874 /* 1 */,
+				C87E358E1A0220740074C874 /* 2.jpeg */,
+				C87E358F1A0220740074C874 /* 3.jpeg */,
+				C87E35931A02238B0074C874 /* 4.jpeg */,
+				C87E35941A02238B0074C874 /* 5 */,
+				C87E35951A02238B0074C874 /* 6.jpeg */,
+				C87E35741A0217CE0074C874 /* Images.xcassets */,
+				C87E35761A0217CE0074C874 /* LaunchScreen.xib */,
+				C87E35691A0217CE0074C874 /* Supporting Files */,
+			);
+			path = "SplitView-Swift";
+			sourceTree = "<group>";
+		};
+		C87E35691A0217CE0074C874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87E356A1A0217CE0074C874 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C87E35801A0217CE0074C874 /* SplitView-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87E35831A0217CE0074C874 /* SplitView_SwiftTests.swift */,
+				C87E35811A0217CE0074C874 /* Supporting Files */,
+			);
+			path = "SplitView-SwiftTests";
+			sourceTree = "<group>";
+		};
+		C87E35811A0217CE0074C874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87E35821A0217CE0074C874 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87E35651A0217CE0074C874 /* SplitView-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E35871A0217CE0074C874 /* Build configuration list for PBXNativeTarget "SplitView-Swift" */;
+			buildPhases = (
+				C87E35621A0217CE0074C874 /* Sources */,
+				C87E35631A0217CE0074C874 /* Frameworks */,
+				C87E35641A0217CE0074C874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplitView-Swift";
+			productName = "SplitView-Swift";
+			productReference = C87E35661A0217CE0074C874 /* SplitView-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87E357C1A0217CE0074C874 /* SplitView-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E358A1A0217CE0074C874 /* Build configuration list for PBXNativeTarget "SplitView-SwiftTests" */;
+			buildPhases = (
+				C87E35791A0217CE0074C874 /* Sources */,
+				C87E357A1A0217CE0074C874 /* Frameworks */,
+				C87E357B1A0217CE0074C874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87E357F1A0217CE0074C874 /* PBXTargetDependency */,
+			);
+			name = "SplitView-SwiftTests";
+			productName = "SplitView-SwiftTests";
+			productReference = C87E357D1A0217CE0074C874 /* SplitView-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87E355E1A0217CE0074C874 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ParadigmCreatives;
+				TargetAttributes = {
+					C87E35651A0217CE0074C874 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C87E357C1A0217CE0074C874 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C87E35651A0217CE0074C874;
+					};
+				};
+			};
+			buildConfigurationList = C87E35611A0217CE0074C874 /* Build configuration list for PBXProject "SplitView-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87E355D1A0217CE0074C874;
+			productRefGroup = C87E35671A0217CE0074C874 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87E35651A0217CE0074C874 /* SplitView-Swift */,
+				C87E357C1A0217CE0074C874 /* SplitView-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87E35641A0217CE0074C874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E35971A02238B0074C874 /* 5 in Resources */,
+				C87E35981A02238B0074C874 /* 6.jpeg in Resources */,
+				C87E35731A0217CE0074C874 /* Main.storyboard in Resources */,
+				C87E35781A0217CE0074C874 /* LaunchScreen.xib in Resources */,
+				C87E35751A0217CE0074C874 /* Images.xcassets in Resources */,
+				C87E35961A02238B0074C874 /* 4.jpeg in Resources */,
+				C87E35901A0220740074C874 /* 1 in Resources */,
+				C87E35911A0220740074C874 /* 2.jpeg in Resources */,
+				C87E35921A0220740074C874 /* 3.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E357B1A0217CE0074C874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87E35621A0217CE0074C874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E35701A0217CE0074C874 /* DetailViewController.swift in Sources */,
+				C87E356E1A0217CE0074C874 /* MasterViewController.swift in Sources */,
+				C87E356C1A0217CE0074C874 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E35791A0217CE0074C874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E35841A0217CE0074C874 /* SplitView_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87E357F1A0217CE0074C874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87E35651A0217CE0074C874 /* SplitView-Swift */;
+			targetProxy = C87E357E1A0217CE0074C874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C87E35711A0217CE0074C874 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87E35721A0217CE0074C874 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C87E35761A0217CE0074C874 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87E35771A0217CE0074C874 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87E35851A0217CE0074C874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C87E35861A0217CE0074C874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87E35881A0217CE0074C874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SplitView-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C87E35891A0217CE0074C874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SplitView-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C87E358B1A0217CE0074C874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SplitView-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitView-Swift.app/SplitView-Swift";
+			};
+			name = Debug;
+		};
+		C87E358C1A0217CE0074C874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SplitView-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitView-Swift.app/SplitView-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87E35611A0217CE0074C874 /* Build configuration list for PBXProject "SplitView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E35851A0217CE0074C874 /* Debug */,
+				C87E35861A0217CE0074C874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87E35871A0217CE0074C874 /* Build configuration list for PBXNativeTarget "SplitView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E35881A0217CE0074C874 /* Debug */,
+				C87E35891A0217CE0074C874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C87E358A1A0217CE0074C874 /* Build configuration list for PBXNativeTarget "SplitView-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E358B1A0217CE0074C874 /* Debug */,
+				C87E358C1A0217CE0074C874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87E355E1A0217CE0074C874 /* Project object */;
+}
