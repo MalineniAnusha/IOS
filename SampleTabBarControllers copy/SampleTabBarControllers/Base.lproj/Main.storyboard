@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="89Q-zq-zil">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="bON-Rc-tqX">
+            <objects>
+                <viewController id="BvR-hb-oDQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qoz-DL-lI2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oaz-75-Pxp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OlY-dj-bU3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This has Most Viewed Information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djt-ou-oYF">
+                                <rect key="frame" x="35" y="225" width="260" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55277640266104" green="0.91936496946301882" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="m1F-NI-b6k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLw-70-lYD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="688" y="1385"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zVD-dl-Iau">
+            <objects>
+                <viewController id="5vf-Dk-AVw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ucf-2m-GFC"/>
+                        <viewControllerLayoutGuide type="bottom" id="4bj-yo-gwN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NNW-a3-0Cc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This contains Most Recent information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYd-uR-Jyq">
+                                <rect key="frame" x="33" y="198" width="296" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59694147628152372" green="1" blue="0.6138996776321195" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="mostRecent" id="lNw-L3-0ul"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jmf-Yn-FkJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741" y="636"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="B1H-SJ-qbc">
+            <objects>
+                <viewController id="SHn-7P-kci" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RPg-5W-by2"/>
+                        <viewControllerLayoutGuide type="bottom" id="R3c-mZ-b6M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z5W-hb-NVk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the contacts page by default" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmp-67-JZ0">
+                                <rect key="frame" x="37" y="213" width="273" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.88785113459856557" blue="0.69564590539617877" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="2NU-eG-Rxz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OF5-k8-UOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741" y="-26"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="Bh1-9p-w7q">
+            <objects>
+                <tabBarController id="89Q-zq-zil" customClass="MainTabBarController" customModule="SampleTabBarControllers" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="hfa-fg-9QR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="SHn-7P-kci" kind="relationship" relationship="viewControllers" id="Qhi-Cs-eLJ"/>
+                        <segue destination="5vf-Dk-AVw" kind="relationship" relationship="viewControllers" id="CeP-Yu-WJw"/>
+                        <segue destination="BvR-hb-oDQ" kind="relationship" relationship="viewControllers" id="scW-Bn-itH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rCH-mu-HFg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79" y="305"/>
+        </scene>
+    </scenes>
+</document>
